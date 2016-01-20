@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E802D251C4F960C0052FCC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E802D241C4F960C0052FCC9 /* AppDelegate.swift */; };
+		1E802D271C4F960C0052FCC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E802D261C4F960C0052FCC9 /* ViewController.swift */; };
+		1E802D2A1C4F960C0052FCC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E802D281C4F960C0052FCC9 /* Main.storyboard */; };
+		1E802D2C1C4F960C0052FCC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E802D2B1C4F960C0052FCC9 /* Assets.xcassets */; };
+		1E802D2F1C4F960C0052FCC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E802D2D1C4F960C0052FCC9 /* LaunchScreen.storyboard */; };
+		1E802D3A1C4F960C0052FCC9 /* sciorViweTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E802D391C4F960C0052FCC9 /* sciorViweTests.swift */; };
+		1E802D451C4F960C0052FCC9 /* sciorViweUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E802D441C4F960C0052FCC9 /* sciorViweUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E802D361C4F960C0052FCC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E802D191C4F960C0052FCC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E802D201C4F960C0052FCC9;
+			remoteInfo = sciorViwe;
+		};
+		1E802D411C4F960C0052FCC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E802D191C4F960C0052FCC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E802D201C4F960C0052FCC9;
+			remoteInfo = sciorViwe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E802D211C4F960C0052FCC9 /* sciorViwe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sciorViwe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E802D241C4F960C0052FCC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E802D261C4F960C0052FCC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E802D291C4F960C0052FCC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E802D2B1C4F960C0052FCC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E802D2E1C4F960C0052FCC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E802D301C4F960C0052FCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E802D351C4F960C0052FCC9 /* sciorViweTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sciorViweTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E802D391C4F960C0052FCC9 /* sciorViweTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sciorViweTests.swift; sourceTree = "<group>"; };
+		1E802D3B1C4F960C0052FCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E802D401C4F960C0052FCC9 /* sciorViweUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sciorViweUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E802D441C4F960C0052FCC9 /* sciorViweUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sciorViweUITests.swift; sourceTree = "<group>"; };
+		1E802D461C4F960C0052FCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E802D1E1C4F960C0052FCC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E802D321C4F960C0052FCC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E802D3D1C4F960C0052FCC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E802D181C4F960C0052FCC9 = {
+			isa = PBXGroup;
+			children = (
+				1E802D231C4F960C0052FCC9 /* sciorViwe */,
+				1E802D381C4F960C0052FCC9 /* sciorViweTests */,
+				1E802D431C4F960C0052FCC9 /* sciorViweUITests */,
+				1E802D221C4F960C0052FCC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E802D221C4F960C0052FCC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E802D211C4F960C0052FCC9 /* sciorViwe.app */,
+				1E802D351C4F960C0052FCC9 /* sciorViweTests.xctest */,
+				1E802D401C4F960C0052FCC9 /* sciorViweUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E802D231C4F960C0052FCC9 /* sciorViwe */ = {
+			isa = PBXGroup;
+			children = (
+				1E802D241C4F960C0052FCC9 /* AppDelegate.swift */,
+				1E802D261C4F960C0052FCC9 /* ViewController.swift */,
+				1E802D281C4F960C0052FCC9 /* Main.storyboard */,
+				1E802D2B1C4F960C0052FCC9 /* Assets.xcassets */,
+				1E802D2D1C4F960C0052FCC9 /* LaunchScreen.storyboard */,
+				1E802D301C4F960C0052FCC9 /* Info.plist */,
+			);
+			path = sciorViwe;
+			sourceTree = "<group>";
+		};
+		1E802D381C4F960C0052FCC9 /* sciorViweTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E802D391C4F960C0052FCC9 /* sciorViweTests.swift */,
+				1E802D3B1C4F960C0052FCC9 /* Info.plist */,
+			);
+			path = sciorViweTests;
+			sourceTree = "<group>";
+		};
+		1E802D431C4F960C0052FCC9 /* sciorViweUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E802D441C4F960C0052FCC9 /* sciorViweUITests.swift */,
+				1E802D461C4F960C0052FCC9 /* Info.plist */,
+			);
+			path = sciorViweUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E802D201C4F960C0052FCC9 /* sciorViwe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E802D491C4F960C0052FCC9 /* Build configuration list for PBXNativeTarget "sciorViwe" */;
+			buildPhases = (
+				1E802D1D1C4F960C0052FCC9 /* Sources */,
+				1E802D1E1C4F960C0052FCC9 /* Frameworks */,
+				1E802D1F1C4F960C0052FCC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sciorViwe;
+			productName = sciorViwe;
+			productReference = 1E802D211C4F960C0052FCC9 /* sciorViwe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E802D341C4F960C0052FCC9 /* sciorViweTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E802D4C1C4F960C0052FCC9 /* Build configuration list for PBXNativeTarget "sciorViweTests" */;
+			buildPhases = (
+				1E802D311C4F960C0052FCC9 /* Sources */,
+				1E802D321C4F960C0052FCC9 /* Frameworks */,
+				1E802D331C4F960C0052FCC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E802D371C4F960C0052FCC9 /* PBXTargetDependency */,
+			);
+			name = sciorViweTests;
+			productName = sciorViweTests;
+			productReference = 1E802D351C4F960C0052FCC9 /* sciorViweTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E802D3F1C4F960C0052FCC9 /* sciorViweUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E802D4F1C4F960C0052FCC9 /* Build configuration list for PBXNativeTarget "sciorViweUITests" */;
+			buildPhases = (
+				1E802D3C1C4F960C0052FCC9 /* Sources */,
+				1E802D3D1C4F960C0052FCC9 /* Frameworks */,
+				1E802D3E1C4F960C0052FCC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E802D421C4F960C0052FCC9 /* PBXTargetDependency */,
+			);
+			name = sciorViweUITests;
+			productName = sciorViweUITests;
+			productReference = 1E802D401C4F960C0052FCC9 /* sciorViweUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E802D191C4F960C0052FCC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = t_souta;
+				TargetAttributes = {
+					1E802D201C4F960C0052FCC9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 993248W63N;
+					};
+					1E802D341C4F960C0052FCC9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 993248W63N;
+						TestTargetID = 1E802D201C4F960C0052FCC9;
+					};
+					1E802D3F1C4F960C0052FCC9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 993248W63N;
+						TestTargetID = 1E802D201C4F960C0052FCC9;
+					};
+				};
+			};
+			buildConfigurationList = 1E802D1C1C4F960C0052FCC9 /* Build configuration list for PBXProject "sciorViwe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E802D181C4F960C0052FCC9;
+			productRefGroup = 1E802D221C4F960C0052FCC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E802D201C4F960C0052FCC9 /* sciorViwe */,
+				1E802D341C4F960C0052FCC9 /* sciorViweTests */,
+				1E802D3F1C4F960C0052FCC9 /* sciorViweUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E802D1F1C4F960C0052FCC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E802D2F1C4F960C0052FCC9 /* LaunchScreen.storyboard in Resources */,
+				1E802D2C1C4F960C0052FCC9 /* Assets.xcassets in Resources */,
+				1E802D2A1C4F960C0052FCC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E802D331C4F960C0052FCC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E802D3E1C4F960C0052FCC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E802D1D1C4F960C0052FCC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E802D271C4F960C0052FCC9 /* ViewController.swift in Sources */,
+				1E802D251C4F960C0052FCC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E802D311C4F960C0052FCC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E802D3A1C4F960C0052FCC9 /* sciorViweTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E802D3C1C4F960C0052FCC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E802D451C4F960C0052FCC9 /* sciorViweUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E802D371C4F960C0052FCC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E802D201C4F960C0052FCC9 /* sciorViwe */;
+			targetProxy = 1E802D361C4F960C0052FCC9 /* PBXContainerItemProxy */;
+		};
+		1E802D421C4F960C0052FCC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E802D201C4F960C0052FCC9 /* sciorViwe */;
+			targetProxy = 1E802D411C4F960C0052FCC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E802D281C4F960C0052FCC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E802D291C4F960C0052FCC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E802D2D1C4F960C0052FCC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E802D2E1C4F960C0052FCC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E802D471C4F960C0052FCC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E802D481C4F960C0052FCC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E802D4A1C4F960C0052FCC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sciorViwe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "life-is-tech.sciorViwe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E802D4B1C4F960C0052FCC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sciorViwe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "life-is-tech.sciorViwe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E802D4D1C4F960C0052FCC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sciorViweTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "life-is-tech.sciorViweTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sciorViwe.app/sciorViwe";
+			};
+			name = Debug;
+		};
+		1E802D4E1C4F960C0052FCC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sciorViweTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "life-is-tech.sciorViweTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sciorViwe.app/sciorViwe";
+			};
+			name = Release;
+		};
+		1E802D501C4F960C0052FCC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sciorViweUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "life-is-tech.sciorViweUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sciorViwe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1E802D511C4F960C0052FCC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sciorViweUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "life-is-tech.sciorViweUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sciorViwe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E802D1C1C4F960C0052FCC9 /* Build configuration list for PBXProject "sciorViwe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E802D471C4F960C0052FCC9 /* Debug */,
+				1E802D481C4F960C0052FCC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E802D491C4F960C0052FCC9 /* Build configuration list for PBXNativeTarget "sciorViwe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E802D4A1C4F960C0052FCC9 /* Debug */,
+				1E802D4B1C4F960C0052FCC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E802D4C1C4F960C0052FCC9 /* Build configuration list for PBXNativeTarget "sciorViweTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E802D4D1C4F960C0052FCC9 /* Debug */,
+				1E802D4E1C4F960C0052FCC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E802D4F1C4F960C0052FCC9 /* Build configuration list for PBXNativeTarget "sciorViweUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E802D501C4F960C0052FCC9 /* Debug */,
+				1E802D511C4F960C0052FCC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E802D191C4F960C0052FCC9 /* Project object */;
+}
