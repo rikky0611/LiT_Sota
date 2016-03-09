@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E36B6E51C58E1D700172A49 /* scrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E36B6E41C58E1D700172A49 /* scrollView.swift */; };
 		1E802D251C4F960C0052FCC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E802D241C4F960C0052FCC9 /* AppDelegate.swift */; };
 		1E802D271C4F960C0052FCC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E802D261C4F960C0052FCC9 /* ViewController.swift */; };
 		1E802D2A1C4F960C0052FCC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E802D281C4F960C0052FCC9 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		1E802D2F1C4F960C0052FCC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E802D2D1C4F960C0052FCC9 /* LaunchScreen.storyboard */; };
 		1E802D3A1C4F960C0052FCC9 /* sciorViweTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E802D391C4F960C0052FCC9 /* sciorViweTests.swift */; };
 		1E802D451C4F960C0052FCC9 /* sciorViweUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E802D441C4F960C0052FCC9 /* sciorViweUITests.swift */; };
+		1E802D531C4F96D30052FCC9 /* temple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E802D521C4F96D30052FCC9 /* temple.jpg */; };
+		1E802D551C4F96E80052FCC9 /* ece619f55e427a784c307377ef8d5bf6ef072b63.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E802D541C4F96E80052FCC9 /* ece619f55e427a784c307377ef8d5bf6ef072b63.jpeg */; };
+		1E802D571C4F96F00052FCC9 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E802D561C4F96F00052FCC9 /* 2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E36B6E41C58E1D700172A49 /* scrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scrollView.swift; sourceTree = "<group>"; };
 		1E802D211C4F960C0052FCC9 /* sciorViwe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sciorViwe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E802D241C4F960C0052FCC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E802D261C4F960C0052FCC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		1E802D401C4F960C0052FCC9 /* sciorViweUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sciorViweUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E802D441C4F960C0052FCC9 /* sciorViweUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sciorViweUITests.swift; sourceTree = "<group>"; };
 		1E802D461C4F960C0052FCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E802D521C4F96D30052FCC9 /* temple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = temple.jpg; sourceTree = "<group>"; };
+		1E802D541C4F96E80052FCC9 /* ece619f55e427a784c307377ef8d5bf6ef072b63.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ece619f55e427a784c307377ef8d5bf6ef072b63.jpeg; sourceTree = "<group>"; };
+		1E802D561C4F96F00052FCC9 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,12 @@
 		1E802D231C4F960C0052FCC9 /* sciorViwe */ = {
 			isa = PBXGroup;
 			children = (
+				1E802D521C4F96D30052FCC9 /* temple.jpg */,
+				1E802D561C4F96F00052FCC9 /* 2.jpg */,
+				1E802D541C4F96E80052FCC9 /* ece619f55e427a784c307377ef8d5bf6ef072b63.jpeg */,
 				1E802D241C4F960C0052FCC9 /* AppDelegate.swift */,
 				1E802D261C4F960C0052FCC9 /* ViewController.swift */,
+				1E36B6E41C58E1D700172A49 /* scrollView.swift */,
 				1E802D281C4F960C0052FCC9 /* Main.storyboard */,
 				1E802D2B1C4F960C0052FCC9 /* Assets.xcassets */,
 				1E802D2D1C4F960C0052FCC9 /* LaunchScreen.storyboard */,
@@ -193,7 +205,7 @@
 				TargetAttributes = {
 					1E802D201C4F960C0052FCC9 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 993248W63N;
+						DevelopmentTeam = W5GEL5NL4Y;
 					};
 					1E802D341C4F960C0052FCC9 = {
 						CreatedOnToolsVersion = 7.2;
@@ -232,7 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E802D571C4F96F00052FCC9 /* 2.jpg in Resources */,
+				1E802D531C4F96D30052FCC9 /* temple.jpg in Resources */,
 				1E802D2F1C4F960C0052FCC9 /* LaunchScreen.storyboard in Resources */,
+				1E802D551C4F96E80052FCC9 /* ece619f55e427a784c307377ef8d5bf6ef072b63.jpeg in Resources */,
 				1E802D2C1C4F960C0052FCC9 /* Assets.xcassets in Resources */,
 				1E802D2A1C4F960C0052FCC9 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E36B6E51C58E1D700172A49 /* scrollView.swift in Sources */,
 				1E802D271C4F960C0052FCC9 /* ViewController.swift in Sources */,
 				1E802D251C4F960C0052FCC9 /* AppDelegate.swift in Sources */,
 			);
@@ -400,10 +416,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = sciorViwe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "life-is-tech.sciorViwe";
+				PRODUCT_BUNDLE_IDENTIFIER = "test-sota";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -411,10 +430,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = sciorViwe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "life-is-tech.sciorViwe";
+				PRODUCT_BUNDLE_IDENTIFIER = "test-sota";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -485,6 +507,7 @@
 				1E802D4B1C4F960C0052FCC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E802D4C1C4F960C0052FCC9 /* Build configuration list for PBXNativeTarget "sciorViweTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +516,7 @@
 				1E802D4E1C4F960C0052FCC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E802D4F1C4F960C0052FCC9 /* Build configuration list for PBXNativeTarget "sciorViweUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +525,7 @@
 				1E802D511C4F960C0052FCC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

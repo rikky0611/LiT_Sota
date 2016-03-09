@@ -9,7 +9,9 @@
 import UIKit
 
 class scrollView: UIScrollView {
-
+    
+    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var imagevie: UIImageView!
     /*
     // Only override drawRect: if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -17,5 +19,10 @@ class scrollView: UIScrollView {
         // Drawing code
     }
     */
+    
+    func scrollViewWillBeginDragging(scrollView: UIScrollView){
+    
+    }
+
 
 }
