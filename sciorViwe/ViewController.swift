@@ -20,8 +20,7 @@ l30:picFlag で押されたボタンの判別
 
 class ViewController: UIViewController , UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIScrollViewDelegate{
     
-    
-    @IBOutlet var scrollView: UIScrollView!
+    @IBOutlet weak var scrollView: UIScrollView!
     
     //ViewControllerにImageViewをOutlet接続
     @IBOutlet weak var image: UIImageView!
@@ -29,8 +28,10 @@ class ViewController: UIViewController , UIImagePickerControllerDelegate, UINavi
     //Label宣言
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
-    
+    //ホーム画面かホラー画面かどちらを変えるのかを表す変数
     var picFlag=0
+    //スクロールサイズ
+    var scrollSize : CGPoint!
 
     override func viewDidLoad() {
         // Do any additional setup after loading the view, typically from a nib.
@@ -60,6 +61,10 @@ class ViewController: UIViewController , UIImagePickerControllerDelegate, UINavi
         
         //初期画面の位置を右端のホーム画面に設定
         scrollView.setContentOffset(scrollView.contentOffset, animated: false)
+        scrollSize = scrollView.contentOffset
+        
+        //delegateをselfに
+        scrollView.delegate = self
         
         super.viewDidLoad()
     }
@@ -82,8 +87,6 @@ class ViewController: UIViewController , UIImagePickerControllerDelegate, UINavi
         
         picFlag = 1
         self.presentViewController(magePickerController, animated: true, completion: nil)
-        
-        print("home")
         
         scrollView.setContentOffset(scrollView.contentOffset, animated: false)
     }
@@ -120,7 +123,8 @@ class ViewController: UIViewController , UIImagePickerControllerDelegate, UINavi
     }
     
     func scrollViewWillBeginDragging(scrollView: UIScrollView) {
-        print("スクロール開始")
+        if scrollView.contentOffset == scrollSize{
+            print("スクロール")
+        }
     }
-        
 }
