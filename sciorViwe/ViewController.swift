@@ -21,7 +21,7 @@ l30:picFlag で押されたボタンの判別
 class ViewController: UIViewController , UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIScrollViewDelegate{
     
     
-    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet var scrollView: UIScrollView!
     
     //ViewControllerにImageViewをOutlet接続
     @IBOutlet weak var image: UIImageView!
@@ -37,21 +37,21 @@ class ViewController: UIViewController , UIImagePickerControllerDelegate, UINavi
         super.viewDidLoad()
         
         let now = NSDate() // 現在日時の取得
+        
         //デートフォーマットのインスタンスを作成
         let dateFormatterForTime = NSDateFormatter()
         dateFormatterForTime.locale = NSLocale(localeIdentifier: "ja_JP") // ロケールの設定
         dateFormatterForTime.dateFormat = "HH:mm" // フォーマットの設定
-        
         print(dateFormatterForTime.stringFromDate(now)) // -> 11:14
         //ラベルに時刻を表示
         timeLabel.text = String(dateFormatterForTime.stringFromDate(now))
 
-        
+        //時刻用デートフォーマットのインスタンスを作成
         let dateFormatterForDate = NSDateFormatter()
         dateFormatterForDate.locale = NSLocale(localeIdentifier: "ja_JP") // ロケールの設定
         dateFormatterForDate.dateFormat = "MM月dd" // 日付フォーマットの設定
         print(dateFormatterForDate.stringFromDate(now)) // -> 6月24日
-        
+        //ラベルに時刻を表示
         dateLabel.text = String(dateFormatterForDate.stringFromDate(now))
 
         //スクロールビューのフレーム設定
@@ -117,12 +117,10 @@ class ViewController: UIViewController , UIImagePickerControllerDelegate, UINavi
         
         picker.dismissViewControllerAnimated(true, completion: nil)
         print("finish")
-
     }
     
     func scrollViewWillBeginDragging(scrollView: UIScrollView) {
-        print("スクロールスタート")
+        print("スクロール開始")
     }
-    
         
 }

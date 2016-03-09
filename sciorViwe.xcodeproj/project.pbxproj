@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E36B6E51C58E1D700172A49 /* scrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E36B6E41C58E1D700172A49 /* scrollView.swift */; };
 		1E802D251C4F960C0052FCC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E802D241C4F960C0052FCC9 /* AppDelegate.swift */; };
 		1E802D271C4F960C0052FCC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E802D261C4F960C0052FCC9 /* ViewController.swift */; };
 		1E802D2A1C4F960C0052FCC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E802D281C4F960C0052FCC9 /* Main.storyboard */; };
@@ -38,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E36B6E41C58E1D700172A49 /* scrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scrollView.swift; sourceTree = "<group>"; };
 		1E802D211C4F960C0052FCC9 /* sciorViwe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sciorViwe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E802D241C4F960C0052FCC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E802D261C4F960C0052FCC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 				1E802D541C4F96E80052FCC9 /* ece619f55e427a784c307377ef8d5bf6ef072b63.jpeg */,
 				1E802D241C4F960C0052FCC9 /* AppDelegate.swift */,
 				1E802D261C4F960C0052FCC9 /* ViewController.swift */,
-				1E36B6E41C58E1D700172A49 /* scrollView.swift */,
 				1E802D281C4F960C0052FCC9 /* Main.storyboard */,
 				1E802D2B1C4F960C0052FCC9 /* Assets.xcassets */,
 				1E802D2D1C4F960C0052FCC9 /* LaunchScreen.storyboard */,
@@ -274,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E36B6E51C58E1D700172A49 /* scrollView.swift in Sources */,
 				1E802D271C4F960C0052FCC9 /* ViewController.swift in Sources */,
 				1E802D251C4F960C0052FCC9 /* AppDelegate.swift in Sources */,
 			);
